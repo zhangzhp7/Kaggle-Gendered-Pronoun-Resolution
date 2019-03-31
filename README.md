@@ -36,3 +36,9 @@ In this competition, you must identify the target of a pronoun within a text pas
 Validation dataset:  
 Accuracy: 0.53  
 Log loss: 0.93  
+
+# Todo
+- Attention   
+- Spacy embeddings  
+- Bert embeddings  
+
