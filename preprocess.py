@@ -86,12 +86,15 @@ y_train = to_categorical(y_train)
 y_valid = to_categorical(y_valid)
 
 import pickle
-data = (x_train_processed, x_valid_processed, y_train, y_valid)
+data = (x_train_processed, x_valid_processed, y_train, y_valid, word_index)
 fp = open('/Users/zhangzhaopeng/统计学习/kaggle/data_preprocessing.pkl', 'wb')
 pickle.dump(data, fp)
 fp.close()        
 
-
+text = (x_train, x_valid)
+fp = open('/Users/zhangzhaopeng/统计学习/kaggle/cleaned_text.pkl', 'wb')
+pickle.dump(data, fp)
+fp.close() 
 
 
 
